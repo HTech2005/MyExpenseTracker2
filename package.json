@@ -1,6 +1,6 @@
 {
-  "name": "myexpensetracker",
-  "version": "3.0.0",
+  "name": "myexpensetracker2",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "start": "npx cross-env NODE_OPTIONS=--max-old-space-size=4096 expo start",

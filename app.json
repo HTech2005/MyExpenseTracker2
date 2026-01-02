@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "MyExpenseTracker",
-    "slug": "MyExpenseTracker",
-    "version": "3.0.0",
+    "name": "MyExpenseTracker2",
+    "slug": "MyExpenseTracker2",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
@@ -31,26 +31,58 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.harold14.MyExpenseTracker"
+      "package": "com.harold14.MyExpenseTracker2"
     },
     "web": {
-      "favicon": "./assets/logo.png"
+      "favicon": "./assets/logo.png",
+      "name": "MyExpenseTracker2",
+      "shortName": "ExpenseTracker",
+      "description": "Gérez vos dépenses, budgets et dettes facilement",
+      "lang": "fr",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#7c3aed",
+      "display": "standalone",
+      "orientation": "portrait",
+      "scope": "/",
+      "startUrl": "/",
+      "preferRelatedApplications": false,
+      "config": {
+        "firebase": {
+          "apiKey": "",
+          "authDomain": "",
+          "projectId": "",
+          "storageBucket": "",
+          "messagingSenderId": "",
+          "appId": ""
+        }
+      },
+      "meta": {
+        "apple-mobile-web-app-capable": "yes",
+        "apple-mobile-web-app-status-bar-style": "default",
+        "apple-mobile-web-app-title": "ExpenseTracker",
+        "mobile-web-app-capable": "yes",
+        "msapplication-TileColor": "#7c3aed"
+      },
+      "build": {
+        "babel": {
+          "include": [
+            "@expo/vector-icons"
+          ]
+        }
+      }
     },
     "extra": {
       "eas": {
-        "projectId": "65d67c97-b1e0-417f-82dd-6c70774dfab5"
+        "projectId": "e6e1d427-4eef-47f3-8c47-675765b7c05c"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/65d67c97-b1e0-417f-82dd-6c70774dfab5"
     },
     "owner": "harold14"
   }

@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({
                         isTablet && styles.iconContainerTablet
                     ]}>
                         <Image
-                            source={require('../../assets/logo.png')}
+                            source={require('../../assets/icon.png')}
                             style={{ width: '100%', height: '100%' }}
                             resizeMode="contain"
                         />
