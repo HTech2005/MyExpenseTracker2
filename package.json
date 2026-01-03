@@ -7,6 +7,7 @@
     "android": "npx cross-env NODE_OPTIONS=--max-old-space-size=4096 expo start --android",
     "ios": "npx cross-env NODE_OPTIONS=--max-old-space-size=4096 expo start --ios",
     "web": "npx cross-env NODE_OPTIONS=--max-old-space-size=4096 expo start --web",
+    "build:web": "npx expo export --platform web && node scripts/copy-pwa-assets.js",
     "clean": "npx cross-env NODE_OPTIONS=--max-old-space-size=4096 expo start -c"
   },
   "dependencies": {
