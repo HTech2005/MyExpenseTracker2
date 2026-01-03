@@ -39,7 +39,7 @@
       "package": "com.harold14.MyExpenseTracker2"
     },
     "web": {
-      "favicon": "./assets/icon.png",
+      "favicon": "./public/logo.png",
       "name": "MyExpenseTracker2",
       "shortName": "ExpenseTracker",
       "description": "Gérez vos dépenses, budgets et dettes facilement",
